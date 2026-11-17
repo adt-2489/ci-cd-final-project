@@ -2,10 +2,6 @@
 Service Package
 """
 
-"""
-Service Package
-"""
-
 from flask import Flask
 from flask_talisman import Talisman
 
