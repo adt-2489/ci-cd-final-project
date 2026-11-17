@@ -1,3 +1,4 @@
+
 """
 Service Package
 """
@@ -18,6 +19,7 @@ from service.common import log_handlers  # pylint: disable=wrong-import-position
 # Initialize application logging
 log_handlers.init_logging(app, "gunicorn.error")
 
+# Application startup logs
 app.logger.info(70 * "*")
 app.logger.info("  S E R V I C E   R U N N I N G  ".center(70, "*"))
 app.logger.info(70 * "*")
